@@ -1,25 +1,33 @@
-# 🚁 DJI Mavic 4 Pro — Product Landing Page
+# 🎨 The UX Review Blog
 
-A fully responsive **product landing page** built with pure **HTML5 & CSS3** — no frameworks, no JavaScript dependencies.
+A pixel-perfect, HTML/CSS-only clone of **The UX Review** blog. Features a striking **Neo-Brutalist** design language, complex grid layouts, and high-contrast styling. Built with pure HTML5 & CSS3 — no frameworks, no JavaScript.
 
-🔗 **Live Demo:** [View Site](https://engsalahkhaled.github.io/-DJI-Mavic-4-Pro-Product-Landing-Page/)
-
----
-
-## 📸 Preview
-
-> DJI Mavic 4 Pro — Professional Drone Product Page
+🔗 **Live Demo:** [View Site](https://github.com/EngSalahKhaled/Ui-UX-Landing-Page-)
 
 ---
 
-## ✨ Features
+## 🎨 Design System (Neo-Brutalism)
 
-- 🧭 **Sticky Navbar** — Glassmorphism effect with smooth active link indicator
-- 🛒 **Hero Section** — Product image, pricing, discount badge & CTA buttons
-- 📊 **Comparison Table** — Side-by-side specs vs competitors with visual highlights
-- ⭐ **Reviews Section** — Customer ratings with animated progress bars & verified badges
-- 🛍️ **Related Products Grid** — Cards with hover effects & image zoom
-- 🌑 **Dark Footer** — Social media links, navigation columns & payment icons
+| Token | Value | Usage |
+|---|---|---|
+| **Border** | `4px solid #000` | All cards & components |
+| **Shadow** | `6px 6px 0px #000` | Solid offset shadows |
+| **Hero BG** | `#fef08a` | Yellow-200 hero section |
+| **Authors BG** | `#fcd34d` | Amber-300 authors section |
+| **Sections BG** | `#f5f5f5` | Neutral-100 content areas |
+| **Font** | `Exo, sans-serif` | All typography |
+| **Accent** | `#ff7a50` | Orange brand color |
+
+---
+
+## ✨ Sections
+
+- 🧭 **Sticky Navbar** — Floating white card with rounded corners & solid shadow
+- 🦸 **Hero Section** — Yellow bg, decorative shapes, 3-color bold heading
+- 📰 **Latest Articles** — Card list + sidebar (Trending, Categories, Newsletter)
+- 👤 **Authors Section** — Amber background, 3 pastel author cards with social links
+- 💬 **Community** — Join box + colored left-border testimonials
+- 🖤 **Footer** — Solid black with newsletter form & press-effect subscribe button
 
 ---
 
@@ -27,30 +35,36 @@ A fully responsive **product landing page** built with pure **HTML5 & CSS3** —
 
 | Technology | Usage |
 |---|---|
-| **HTML5** | Semantic structure & SEO meta tags |
-| **CSS3** | Flexbox layout, transitions, variables |
-| **Google Fonts** | Inter typeface |
-| **Font Awesome 6** | Icons throughout the UI |
+| **HTML5** | Semantic structure |
+| **CSS3** | Custom properties, Grid, Flexbox, Transitions |
+| **Google Fonts** | Exo typeface |
+| **Font Awesome 6** | Icons |
 
 ---
 
 ## 📁 Project Structure
 
 ```
-📦 DJI-Mavic-4-Pro-Product-Landing-Page
- ┣ 📄 index.html       — Main page structure
- ┣ 📄 style.css        — All styles & design system
- ┗ 📁 images/          — Local image assets
+📦 ux-review-blog
+ ┣ 📄 index.html     — Full page structure
+ ┗ 📄 ux-style.css   — Complete Neo-Brutalist design system
 ```
+
+---
+
+## 🎯 Key Techniques
+
+- Building a **Neo-Brutalist** design system from scratch
+- **Press-effect buttons** using CSS `::before` pseudo-elements
+- **CSS Grid** for complex multi-column layouts
+- Floating **navbar card** with border-radius & box-shadow
+- Exact **color palette** with CSS custom properties
 
 ---
 
 ## 🚀 Getting Started
 
 ```bash
-# Clone the repository
-git clone https://github.com/EngSalahKhaled/-DJI-Mavic-4-Pro-Product-Landing-Page.git
-
 # Open in browser
 open index.html
 ```
